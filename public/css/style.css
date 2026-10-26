@@ -72,10 +72,11 @@
     font-weight: bold;
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 70px;
+    padding: 30px 15px;
     margin: 30px auto;
     height: 100vh auto;
-    width: 500px auto;
+    width: 100%;
+    box-sizing: border-box;
     text-align: center;
     justify-content: center;
     background-color:white;
@@ -104,10 +105,11 @@
     transform: translateY(-20px);
 }
 .card-profil {
-    width: 400px ;
+    width: 100%;
+    max-width: 400px ;
     height: 450px auto;
-    margin: auto;
-    padding: 50px;
+    margin: 0 auto;
+    padding: 30px;
     border: 2px solid black;
     box-shadow: 0 2px 4px black;
     border-radius: 30%;
